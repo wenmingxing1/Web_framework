@@ -1,3 +1,4 @@
+/* 框架基类 */
 #ifndef SERVER_BASE_H_INCLUDED
 #define SERVER_BASE_H_INCLUDED
 
@@ -6,7 +7,7 @@
 #include<regex>
 #include<boost/asio.hpp>
 
-namespace ShiyanlouWeb {
+namespace Wenmingxing {
     /*Request结构体用于解析请求，如请求方法，请求路径，HTTP版本等信息*/
     struct Request {
         //请求方法，GET，POST；请求路径；HTTP版本
