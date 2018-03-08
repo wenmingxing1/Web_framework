@@ -2,7 +2,7 @@
 # Makefile
 # web_server
 #
-# created by changkun at shiyanlou.com
+# 
 #
 
 CXX = g++
