@@ -1,9 +1,10 @@
+/* 实现http，主要是实现了虚函数accept */
 #ifndef SERVER_HTTP_H_INCLUDED
 #define SERVER_HTTP_H_INCLUDED
 
 #include "server_base.h"
 
-namespace ShiyanlouWeb {
+namespace Wenmingxing {
     typedef boost::asio::ip::tcp::socket HTTP;
     template<>
     class Server<HTTP> : public ServerBase<HTTP> {
