@@ -1,10 +1,11 @@
+/* ”√”⁄≤‚ ‘ */
 #ifndef HANDLER_H_INCLUDED
 #define HANDLER_H_INCLUDED
 
 #include "server_base.h"
 #include<fstream>
 using namespace std;
-using namespace ShiyanlouWeb;
+using namespace Wenmingxing;
 
 template<typename SERVER_TYPE>
 void start_server(SERVER_TYPE &server) {
